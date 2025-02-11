@@ -9,7 +9,25 @@
     <link rel="shortcut icon" href="icon.png" type="image/png">
     <link rel="stylesheet" type="text/css" href="resources/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="resources/css/css.css" />
+<style>
+    .navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
 
+.site-logo {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 10px;
+}
+
+.site-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: white; /* Adjust color as needed */
+}
+    </style>
 
    
 </head>
@@ -18,9 +36,10 @@
     <div class="site-container">
         <div class="site-content">
             <nav class="navbar navbar-expand-md navbar-dark top-nav fixed-top py-1 px-2" id="mainNav">
-                <a class="navbar-brand js-scroll-trigger animated tada delay-4s" href="/">
-            <img src="logo.png" class="site-logo" alt="Soccer Bros">
-          </a>
+            <a class="navbar-brand js-scroll-trigger animated tada delay-4s" href="/">
+               <img src="logo.png" class="site-logo" alt="Soccer Bros">
+                  <span class="site-name">Soccer Bros</span>
+                    </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fal fa-bars"></i>
           </button>
